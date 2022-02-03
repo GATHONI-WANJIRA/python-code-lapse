@@ -31,7 +31,23 @@
       
        Integers are numbers without the fractions eg 2,3,4,5, and are type 'int'.Numbers with fractions like 5.8,2.0 are identified as type float.
        To avoid getting any fractional result one can use (//).
-       For calculation of power use (**)
+       For calculation of power use (**) 
+       
+       python also has built in support for complex numbers and uses 'j' or 'J' suffix to indicate the imaginary part eg (6+5j)
+       
+       
+    >>> Strings.
+        They are usually enclosed in single or double quotes. (" ") , (' ') .
+        They can be joined together by use of '+' and repeated by use of '*' .
+        
+        Strings can be indexed by having the first character identified as  index (0) .
+        Negative indices start from -1 since 0, is the same as -0 hence only acknowledging 0 from the left.
+        You can also slice the characters to obtain sub strings eg [0:2]
+        
+        
+        
+        
+       
        
        
 
