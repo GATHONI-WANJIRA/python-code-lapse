@@ -33,6 +33,7 @@
        To avoid getting any fractional result one can use (//).
        For calculation of power use (**) 
        
+       
        python also has built in support for complex numbers and uses 'j' or 'J' suffix to indicate the imaginary part eg (6+5j)
        
        
