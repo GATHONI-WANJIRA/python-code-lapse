@@ -39,9 +39,6 @@
        [4:] from 4 (included to the end)
         
         The inbuilt function len() is supposed to return the length of a string.
-        
-       
-       
        
        python also has built in support for complex numbers and uses 'j' or 'J' suffix to indicate the imaginary part eg (6+5j)
        
@@ -53,8 +50,22 @@
         Strings can be indexed by having the first character identified as  index (0) .
         Negative indices start from -1 since 0, is the same as -0 hence only acknowledging 0 from the left.
         You can also slice the characters to obtain sub strings eg [0:2]
+        They are immutable.
         
         
+        
+    >>> Lists.
+        They are written inside square brackets and separated with comas, eg [1,2,6,9,] , provided they are of the same type.
+        They can also be indexed taking the first position as a 0.
+        Unlike strings they are mutable.
+        You can also add new items to the list using ; append () method.
+        They can also be nested. thus creating lists that contain other lists.
+        
+        Fibonacci series??
+        
+        
+        
+ #### 4. Control Flow Tools. 
         
         
        
