@@ -24,7 +24,16 @@
    
 
  3. #### Informal introduction to python.   
+     comments in python are written by use of '#' before a line of code, in a white space, but never in a string literal.
      
+    >>> Using python as a calculator.
+      Numbers expression syntax still work like in other launguages and can be used for grouping.(+,=,*,/,) .
+      
+       Integers are numbers without the fractions eg 2,3,4,5, and are type 'int'.Numbers with fractions like 5.8,2.0 are identified as type float.
+       To avoid getting any fractional result one can use (//).
+       For calculation of power use (**)
+       
+       
 
 
 
