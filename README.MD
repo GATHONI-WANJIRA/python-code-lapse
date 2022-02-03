@@ -4,7 +4,7 @@
 
 <!--Hapa wadau nayo ni sir jah aniokoe bana -->
 
-#### _1.Using the python interpreter_
+#### 1.Using the python interpreter.
 > The docs get to outline various ways of starting the python interpreter. 
      (i honestly didn't dwell on this and the commands as well since in the past i've not used them in any way)
      The commands included
