@@ -15,7 +15,7 @@
    
    >>>>Source Coding & Encoding.
    -To declare an encoding other than the default one is to be used, this special line of code should be added to the first line of the file;
-   # * coding: encoding *
+    * coding: encoding *
    (where encoding is a valid codecs eg =cp1252) Also check the file to see the initial syntax without MD effect.
    -Incase the source code starts with a ##### UNIX "_shebang_" line ,the declaration should be added  as the second line of the file.
    
