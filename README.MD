@@ -1,7 +1,5 @@
 ### Basic writing and formatting syntax.
 
-**This readme.md file is _crucial_ to my learning journey as it gets to serve as my virtual notebook.**
-
 <!--Hapa wadau nayo ni sir jah aniokoe bana -->
 
 #### 1.Using the python interpreter.
