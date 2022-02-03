@@ -33,6 +33,15 @@
        To avoid getting any fractional result one can use (//).
        For calculation of power use (**) 
        
+       Word [0(included):2(excluded] 
+       
+       [:2] from position 0 (included) to 2 (excluded)
+       [4:] from 4 (included to the end)
+        
+        The inbuilt function len() is supposed to return the length of a string.
+        
+       
+       
        
        python also has built in support for complex numbers and uses 'j' or 'J' suffix to indicate the imaginary part eg (6+5j)
        
