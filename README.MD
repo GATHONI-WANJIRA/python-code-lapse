@@ -127,6 +127,14 @@ def get_capital(country):
     
  else: 
      return none
+     
+     
+     
+ >>>For statements.
+    names =['noni' , 'wahu', 'vivo']
+      for u in names:
+        print (u,(len(u))
+          wahu 4
 
 
 
