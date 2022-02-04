@@ -57,7 +57,7 @@
                    jude died.
         
         Strings can be indexed by having the first character identified as  index (0) .
-                        fruits = [mangoes, oranges,kiwi,apple]
+                        fruits = ["mangoes"," oranges","kiwi","apple"]
                         print (fruit [2]
                             kiwi
         
@@ -75,8 +75,13 @@
     >>> Lists.
         They are written inside square brackets and separated with comas, eg [1,2,6,9,] , provided they are of the same type.
         They can also be indexed taking the first position as a 0.
+        (apply the same concept of lists above in string)
+        
         Unlike strings they are mutable.
         You can also add new items to the list using ; append () method.
+        
+                 fruits = ["mangoes", "oranges", "kiwi", "apple"]
+                 
         They can also be nested. thus creating lists that contain other lists.
         
         ###### All possible sample code is available in its respective file.
