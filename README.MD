@@ -68,6 +68,12 @@
         You can also slice the characters to obtain sub strings eg [0:2]
                         print (fruits[1:]
                         oranges,kiwi,apple
+                        
+                        
+        The length in built function.
+               print ((len(fruits))
+                    4
+                    
         They are immutable.
               their initial positions cannot be changed.
         
