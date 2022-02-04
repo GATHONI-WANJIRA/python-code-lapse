@@ -31,6 +31,36 @@
     >>> Using python as a calculator.
       Numbers expression syntax still work like in other launguages and can be used for grouping.(+,=,*,/,) .
       
+ p = 2
+w = 4
+n = p+w
+print (n)
+
+#this gets to happen to all the other mathematical syntax expression just interchanging respectfully.
+k = 10
+m = 2 
+u = k/m
+print (u)
+
+#To eliminate the decimal or the fraction in any division you use double // as illustrated below.
+
+z =10 
+g = 2
+h = z//g 
+print (h)
+
+
+#to find power of any number use **.
+l =10**2
+print (l)
+
+#to determine complex sums we use j and J to represent the unknowns like shown below.
+v = 10j
+a = 2
+t= v - a 
+print (t)
+
+      
       
        Integers are numbers without the fractions eg 2,3,4,5, and are type 'int'.Numbers with fractions like 5.8,2.0 are identified as type float.
        To avoid getting any fractional result one can use (//).
@@ -48,13 +78,27 @@
        
     >>> Strings.
         They are usually enclosed in single or double quotes. (" ") , (' ') .
+                    print("you are late to work"
         They can be joined together by use of '+' and repeated by use of '*' .
+                   Name = jude
+                   action = died.
+                   print name + action
+                   jude died.
         
         Strings can be indexed by having the first character identified as  index (0) .
-        Negative indices start from -1 since 0, is the same as -0 hence only acknowledging 0 from the left.
-        You can also slice the characters to obtain sub strings eg [0:2]
-        They are immutable.
+                        fruits = [mangoes, oranges,kiwi,apple]
+                        print (fruit [2]
+                            kiwi
         
+        Negative indices start from -1 since 0, is the same as -0 hence only acknowledging 0 from the left.
+                           print (fruit[-2])
+                                  kiwi
+        
+        You can also slice the characters to obtain sub strings eg [0:2]
+                        print (fruits[1:]
+                        oranges,kiwi,apple
+        They are immutable.
+              their initial positions cannot be changed.
         
         
     >>> Lists.
