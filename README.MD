@@ -37,6 +37,8 @@
        To avoid getting any fractional result one can use (//).
        For calculation of power use (**) 
        
+             2**2 = 4
+       
        Word [0(included):2(excluded] 
        
        [:2] from position 0 (included) to 2 (excluded)
