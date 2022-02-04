@@ -57,7 +57,7 @@
                    jude died.
         
         Strings can be indexed by having the first character identified as  index (0) .
-                        fruits = ["mangoes"," oranges","kiwi","apple"]
+                        fruits = ["pears"," oranges","kiwi","apple"]
                         print (fruit [2]
                             kiwi
         
@@ -81,10 +81,17 @@
         You can also add new items to the list using ; append () method.
         
                  fruits = ["mangoes", "oranges", "kiwi", "apple"]
+                   fruits.append.("bananas", "pawpaw)
+                   print fruits
+                    ["mangoes", "oranges", "kiwi", "apple" "bananas" "pawpaw"]
                  
         They can also be nested. thus creating lists that contain other lists.
-        
-        ###### All possible sample code is available in its respective file.
+                 fruits_in_string = ["pears"," oranges","kiwi","apple"]
+                    fruits_in_lists =  ["mangoes", "oranges", "kiwi", "apple" "bananas""pawpaw"]
+                       fruits= fruits_in_string + fruits_in_lists
+                       print fruits =  ["pears", "oranges", "kiwi", "apple", "mangoes", "bananas""pawpaw"]
+                 
+               
         
         Fibonacci series??
         
