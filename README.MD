@@ -1,4 +1,8 @@
 ### Basic writing and formatting syntax.
+        ##### All possible sample code is available in its respective file.
+        
+
+
 
 <!--Hapa wadau nayo ni sir jah aniokoe bana -->
 
@@ -26,6 +30,7 @@
      
     >>> Using python as a calculator.
       Numbers expression syntax still work like in other launguages and can be used for grouping.(+,=,*,/,) .
+      
       
        Integers are numbers without the fractions eg 2,3,4,5, and are type 'int'.Numbers with fractions like 5.8,2.0 are identified as type float.
        To avoid getting any fractional result one can use (//).
@@ -58,6 +63,8 @@
         Unlike strings they are mutable.
         You can also add new items to the list using ; append () method.
         They can also be nested. thus creating lists that contain other lists.
+        
+        ###### All possible sample code is available in its respective file.
         
         Fibonacci series??
         
