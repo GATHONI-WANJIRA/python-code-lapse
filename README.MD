@@ -109,18 +109,23 @@
         
        >>>> IF Statements.
          They include IF, ELIF,ELSE.
+         
          They are used to write conditional flow code.
-           They evaluate if a condition is true or false.
+         They evaluate if a condition is true or false.
                  
                 
 def get_capital(country):
+
  if country == "kenya":
    return "Nairobi"
-  elif country == "lebanon":
+   
+ elif country == "lebanon":
    return "Beruit"
-  elif country == "DRC":
+   
+ elif country == "DRC":
     return Kinshasa
-  else: 
+    
+ else: 
      return none
 
 
