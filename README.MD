@@ -113,7 +113,18 @@
            They evaluate if a condition is true or false.
                  
                 
-
+def get_capital(country)
+ if country = kenya
+   return Nairobi
+   
+  elif country = lebanon
+   return = Beruit
+   
+  elif country = DRC
+    return Kinshasa
+    
+   else 
+     return none.
 
 
 
