@@ -107,36 +107,55 @@
         
  #### 4. Control Flow Tools. 
         
-       >>>> IF Statements.
+   -IF Statements.
          They include IF, ELIF,ELSE.
          
          They are used to write conditional flow code.
          They evaluate if a condition is true or false.
                  
                 
-def get_capital(country):
+           def get_capital(country):
 
- if country == "kenya":
-   return "Nairobi"
+             if country == "kenya":
+                return "Nairobi"
    
- elif country == "lebanon":
-   return "Beruit"
+             elif country == "lebanon":
+                return "Beruit"
    
- elif country == "DRC":
-    return Kinshasa
+             elif country == "DRC":
+                return Kinshasa
     
- else: 
-     return none
+             else: 
+               return none
      
      
      
- >>>For statements.
+ -For statements. 
+ 
     names =['noni' , 'wahu', 'vivo']
       for u in names:
         print (u,(len(u))
           wahu 4
 
+-The Range () function. 
 
+    For i in range (4): 
+      print (i)
+         0
+         1
+         2
+         3
+          
+ The given end point is not part of the generated sequence.
+ 
+ 
+-Break and continue statements , & else clauses on loops.
+         
+         
+         
+         
+         
+         
 
 
 
