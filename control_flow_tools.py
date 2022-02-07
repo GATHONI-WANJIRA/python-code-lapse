@@ -26,3 +26,15 @@ else:
     print ("add some more")
 
 
+#compilation of For and else break loops.
+for n in range (2, 10):
+    # print (n)
+    for x in range (2, n):
+        # print (x)
+
+       if n % x == 0:
+           print (n," is not a prime number!")
+           break
+    else:
+            print (n," is a prime number")
+
