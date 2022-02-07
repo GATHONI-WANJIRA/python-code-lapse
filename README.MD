@@ -176,7 +176,7 @@ If there is a repitition in a variable the loop will only call the character onc
                        2=two
                        3=three
 
-Theres a for or while loop where conditions given below gets to be excecuted just like in If and Else statements.
+Theres a for or while loop where conditions given gets to be excecuted just like in If and Else statements.
  
               Fruits = ["mango", 'cherry", "apple"]
                  for fruit in fruits 
