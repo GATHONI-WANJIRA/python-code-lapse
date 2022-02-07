@@ -151,8 +151,20 @@
  
 -Break and continue statements , & else clauses on loops.
 
-     
-         
+ A loop interates over an object until it is complete.
+ It can either be a For loop or a While loop as shown in the above illustrations.
+ 
+ looping over characters example.(Looping is basically naming all that is given by the variable.
+ 
+     str = "Python"
+ for c in str:
+   print(c)
+P
+y
+t
+h
+o
+n
          
          
          
