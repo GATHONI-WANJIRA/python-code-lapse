@@ -1,12 +1,9 @@
-#short notes in a python file are written using '#' at the beginning of each line.
-
 p = 2
 w = 4
 n = p+w
 print (n)
 
 #this gets to happen to all the other mathematical syntax expression just interchanging respectifully.
-
 k = 10
 m = 2 
 u = k/m
@@ -30,14 +27,7 @@ a = 2
 t= v - a 
 print (t)
 
-
-
-
-
-
-
 #To determine type/class of any objects.
-
 
 # If it is a whole number thats an integer.
 marks = (23)
