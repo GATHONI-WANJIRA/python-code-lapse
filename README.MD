@@ -157,16 +157,23 @@
  looping over characters example.(Looping is basically naming all that is given by the variable.
  
      str = "Python"
- for c in str:
-   print(c)
-P
-y
-t
-h
-o
-n
+      for c in str:
+       print(c)
+         P
+         y
+         t
+         h
+         o
+         n
          
-         
+If there is a repitition in a variable the loop will only call the character once. Loops dont arrange the output in the order og the occurrence but rather randomly.
+
+              my_set = set("ABCBA")
+                 for c in my_set:
+                  print(c)
+                    C
+                    B
+                    A
          
          
          
