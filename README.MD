@@ -184,6 +184,23 @@ If there is a repitition in a variable the loop will only call the character onc
                        2=two
                        3=three
 
-
+Theres a for or while loop where conditions given below gets to be excecuted just like in If and Else statements.
+ 
+              Fruits = ["mango", 'cherry", "apple"]
+                 for fruit in fruits 
+                  print (fruit)
+                    mango
+                    apple
+                    cherry
+                    
+               Count = 4
+                while count > 4
+                 print ("run the code")
+                else:
+                 print ("Dont run the code")
+                 
+                    
+                    
+                  
 
 
