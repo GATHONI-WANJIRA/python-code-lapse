@@ -188,9 +188,28 @@ Theres a for or while loop where conditions given gets to be excecuted just like
                  print ("run the code")
                 else:
                  print ("Dont run the code")
-                 
-                    
-                    
+               
+Compilations of For & Else break loops.
+ 
+           for n in range (2, 10):
+                # print (n)
+           for x in range (2, n):
+                # print (x)
+              if n % x == 0:
+                print (n," is not a prime number!")
+             break
+          else:
+            print (n," is a prime number")
+            
+            
+            
+ Continue statements in loops.
+
+     for num in range (2,10):
+        if num % 2 == 0:
+          print("this is an even number", num)
+          continue
+            print("this is an odd number" , num)     
                   
 
 
