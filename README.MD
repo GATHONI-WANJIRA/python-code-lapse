@@ -219,6 +219,9 @@ Compilations of For & Else break loops.
            while True:
               pass  
    
+4.6 Match Statements.
+ Its takes an expression and compares its value to successive patterns given as one or more case blocks.
+ 
 
                   
 
