@@ -211,7 +211,7 @@ Compilations of For & Else break loops.
           continue
             print("this is an odd number" , num)     
             
-            
+            [
             
  4.5 Pass Statements.
    They are used phrase portions of the code that are needed/ need no action.
@@ -219,7 +219,7 @@ Compilations of For & Else break loops.
            while True:
               pass  
    
-4.6 Match Statements.
+4.6Match Statements.
  Its takes an expression and compares its value to successive patterns given as one or more case blocks.
  
 
