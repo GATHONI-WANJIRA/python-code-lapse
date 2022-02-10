@@ -211,7 +211,7 @@ Compilations of For & Else break loops.
           continue
             print("this is an odd number" , num)     
             
-            [
+            
             
  4.5 Pass Statements.
    They are used phrase portions of the code that are needed/ need no action.
