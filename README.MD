@@ -214,7 +214,7 @@ Compilations of For & Else break loops.
             
             
  4.5 Pass Statements.
-   They are used phrase portions of the code that are needed/ need no action.
+   They are used phrase portions of the code that are needed/ need no action.They create empty block codes and functions.
    
            while True:
               pass  
