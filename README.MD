@@ -223,7 +223,18 @@ Compilations of For & Else break loops.
 4.6Match Statements.
  Its takes an expression and compares its value to successive patterns given as one or more case blocks.
  
-
+       number =int(input("code"))
+        def country_name(code):
+         match code:
+          case 254:
+            return ("Kenya")                                                                   
+          case 256:
+            return ("Uganda")
+          case 247:
+            return ("tanzania")
+          case _:
+            return ("Notfound")
+print (country_name(number) )
                   
 
 
