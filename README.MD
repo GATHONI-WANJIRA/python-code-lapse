@@ -33,6 +33,7 @@
        For calculation of power use (**) 
        
              2**2 = 4
+             
        
        Word [0(included):2(excluded] 
        
@@ -231,5 +232,5 @@ Compilations of For & Else break loops.
             return ("Notfound")
         print (country_name(number) )
                   
-
+You can combine several literals in a single pattern using | (“or”)
 
