@@ -1,10 +1,5 @@
 ### Basic writing and formatting syntax.
         ##### All possible sample code is available in its respective file.
-        
-
-
-
-
 
 #### 1.Using the python interpreter.
 > The docs get to outline various ways of starting the python interpreter. 
