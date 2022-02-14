@@ -4,7 +4,7 @@
 
 
 
-<!--Hapa
+<!--H
 
 #### 1.Using the python interpreter.
 > The docs get to outline various ways of starting the python interpreter. 
