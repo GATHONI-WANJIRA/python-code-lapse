@@ -1,4 +1,4 @@
-3#3##4### Basic writing and formatting syntax.
+#3##4### Basic writing and formatting syntax.
         ##### All possible sample code is available in its respective file.
 
 #### 1.Using the python interpreter.
