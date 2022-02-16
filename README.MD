@@ -180,14 +180,7 @@ If there is a repitition in a variable the loop will only call the character onc
   B
   A
 ```
-<<<<<<< HEAD
-  ```
-
-=======
-```
-  
->>>>>>> 
-         
+       
  Loops in dictionaries.
  
 ```python
@@ -196,7 +189,8 @@ If there is a repitition in a variable the loop will only call the character onc
                 print(f'{k}={v}')
                    1=one
                      2=two
-```                       3=three
+                       3=three
+```
 
 Theres a for or while loop where conditions given gets to be excecuted just like in If and Else statements.
  
