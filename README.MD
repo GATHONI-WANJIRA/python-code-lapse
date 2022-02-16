@@ -239,14 +239,14 @@ Compilations of For & Else break loops.
 ```         
             
             
- 4.5 Pass Statements.
+ ##### 4.5 Pass Statements.
    They are used phrase portions of the code that need no action.They create empty block codes and functions.
    They are useful in creating blank classes and functions for information that will be updated later on.
    
            while True:
               pass  
    
-4.6Match Statements.
+##### 4.6Match Statements.
  Its takes an expression and compares its value to successive patterns given as one or more case blocks.
  
        number =int(input("code"))
