@@ -129,13 +129,15 @@
 
 -The Range () function. 
 
+```python
     For i in range (4): 
       print (i)
          0
          1
          2
          3
-          
+         ``` 
+         
   The given end point is not part of the generated sequence.
  
  
