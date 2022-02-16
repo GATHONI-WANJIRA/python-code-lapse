@@ -1,10 +1,5 @@
 ### Basic writing and formatting syntax.
         ##### All possible sample code is available in its respective file.
-        
-
-
-
-<!--Hapa wadau nayo ni sir jah aniokoe bana -->
 
 #### 1.Using the python interpreter.
 > The docs get to outline various ways of starting the python interpreter. 
@@ -38,6 +33,7 @@
        For calculation of power use (**) 
        
              2**2 = 4
+             
        
        Word [0(included):2(excluded] 
        
@@ -88,10 +84,12 @@
         Unlike strings they are mutable.
         You can also add new items to the list using ; append () method.
         
-                 fruits = ["mangoes", "oranges", "kiwi", "apple"]
-                   fruits.append.("bananas", "pawpaw)
-                   print fruits
-                    ["mangoes", "oranges", "kiwi", "apple" "bananas" "pawpaw"]
+         ``` 
+         python fruits = ["mangoes", "oranges", "kiwi", "apple"]
+         fruits.append.("bananas", "pawpaw)
+         print fruits
+         ["mangoes", "oranges", "kiwi", "apple" "bananas" "pawpaw"]           
+         ```
                  
         They can also be nested. thus creating lists that contain other lists.
                  fruits_in_string = ["pears"," oranges","kiwi","apple"]
@@ -131,13 +129,15 @@
 
 -The Range () function. 
 
-    For i in range (4): 
-      print (i)
+```python
+   For i in range (4): 
+   print (i)
          0
          1
          2
          3
-          
+ ``` 
+         
   The given end point is not part of the generated sequence.
  
  
@@ -145,7 +145,8 @@
 
  A loop interates over an object until it is complete.
  It can either be a For loop or a While loop as shown below .
- 
+
+```python
      str = "Python"
       for c in str:
        print(c)
@@ -155,6 +156,8 @@
          h
          o
          n
+
+```
          
 If there is a repitition in a variable the loop will only call the character once. Loops dont arrange the output in the order og the occurrence but rather randomly.
 
@@ -225,7 +228,18 @@ Compilations of For & Else break loops.
 4.6Match Statements.
  Its takes an expression and compares its value to successive patterns given as one or more case blocks.
  
-
+       number =int(input("code"))
+        def country_name(code):
+         match code:
+          case 254:
+            return ("Kenya")                                                                   
+          case 256:
+            return ("Uganda")
+          case 247:
+            return ("tanzania")
+          case _:
+            return ("Notfound")
+        print (country_name(number) )
                   
-
+You can combine several literals in a single pattern using | (“or”)
 
