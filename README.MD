@@ -50,20 +50,20 @@
                     print("you are late to work"
         They can be joined together by use of '+' and repeated by use of '*' .
 
-        ```python
+```python
                    Name = jude
                    action = died.
                    print name + action
                    jude died.
-      ```
+```
         
         Strings can be indexed by having the first character identified as  index (0) .
        
-       ```python
+ ```python
         fruits = ["pears"," oranges","kiwi","apple"]
                         print (fruit [2]
                             kiwi
-      ```
+```
         
         Negative indices start from -1 since 0, is the same as -0 hence only acknowledging 0 from the left.
                            print (fruit[-2])
@@ -90,22 +90,22 @@
         Unlike strings they are mutable.
         You can also add new items to the list using ; append () method.
         
-         ```python
+```python
          fruits = ["mangoes", "oranges", "kiwi", "apple"]
          fruits.append.("bananas", "pawpaw)
          print fruits
          ["mangoes", "oranges", "kiwi", "apple" "bananas" "pawpaw"]           
-         ```
+ ```
 
                  
         They can also be nested. thus creating lists that contain other lists.
           
-          ```python
+ ```python
            fruits_in_string = ["pears"," oranges","kiwi","apple"]
                fruits_in_lists =  ["mangoes", "oranges", "kiwi", "apple" "bananas""pawpaw"]
                  fruits= fruits_in_string + fruits_in_lists
                   print fruits =  ["pears", "oranges", "kiwi", "apple", "mangoes",        "bananas""pawpaw"]
-          ```
+```
                  
                
         
@@ -233,14 +233,14 @@ Compilations of For & Else break loops.
             
  Continue statements in loops.
 
- ```python
+```python
 
      for num in range (2,10):
         if num % 2 == 0:
           print("this is an even number", num)
           continue
             print("this is an odd number" , num)     
-  ```         
+```         
             
             
  4.5 Pass Statements.
