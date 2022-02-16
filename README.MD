@@ -161,12 +161,15 @@
          
 If there is a repitition in a variable the loop will only call the character once. Loops dont arrange the output in the order og the occurrence but rather randomly.
 
-              my_set = set("ABCBA")
-                 for c in my_set:
-                  print(c)
-                    C
-                    B
-                    A
+```python
+   my_set = set("ABCBA")
+  for c in my_set:
+  print(c)
+  C
+  B
+  A
+  ```
+  
          
  Loops in dictionaries.
     
