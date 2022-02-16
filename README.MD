@@ -168,7 +168,7 @@ If there is a repitition in a variable the loop will only call the character onc
   C
   B
   A
-  ```
+```
   
          
  Loops in dictionaries.
@@ -194,6 +194,7 @@ Theres a for or while loop where conditions given gets to be excecuted just like
                Count = 4
                 while count > 4
                  print ("run the code")
+                 
                 else:
                  print ("Dont run the code")
                
