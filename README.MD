@@ -169,21 +169,20 @@ If there is a repitition in a variable the loop will only call the character onc
   B
   A
   ```
-  
+
          
  Loops in dictionaries.
-
-```python
+    
                  num_dict = {1: "Nairobi", 2: "kisumu", 3: "Eldoret"}
                    for k, v in num_dict.items():
                      print(f'{k}={v}')
                        1=one
                        2=two
                        3=three
-```
 
 Theres a for or while loop where conditions given gets to be excecuted just like in If and Else statements.
  
+ ```python
               Fruits = ["mango", 'cherry", "apple"]
                  for fruit in fruits 
                   print (fruit)
@@ -196,6 +195,7 @@ Theres a for or while loop where conditions given gets to be excecuted just like
                  print ("run the code")
                 else:
                  print ("Dont run the code")
+```
                
 Compilations of For & Else break loops.
  
