@@ -49,15 +49,21 @@
         They are usually enclosed in single or double quotes. (" ") , (' ') .
                     print("you are late to work"
         They can be joined together by use of '+' and repeated by use of '*' .
+
+        ```python
                    Name = jude
                    action = died.
                    print name + action
                    jude died.
+      ```
         
         Strings can be indexed by having the first character identified as  index (0) .
-                        fruits = ["pears"," oranges","kiwi","apple"]
+       
+       ```python
+        fruits = ["pears"," oranges","kiwi","apple"]
                         print (fruit [2]
                             kiwi
+      ```
         
         Negative indices start from -1 since 0, is the same as -0 hence only acknowledging 0 from the left.
                            print (fruit[-2])
@@ -84,18 +90,22 @@
         Unlike strings they are mutable.
         You can also add new items to the list using ; append () method.
         
-         ``` 
-         python fruits = ["mangoes", "oranges", "kiwi", "apple"]
+         ```python
+         fruits = ["mangoes", "oranges", "kiwi", "apple"]
          fruits.append.("bananas", "pawpaw)
          print fruits
          ["mangoes", "oranges", "kiwi", "apple" "bananas" "pawpaw"]           
          ```
+
                  
         They can also be nested. thus creating lists that contain other lists.
-                 fruits_in_string = ["pears"," oranges","kiwi","apple"]
-                    fruits_in_lists =  ["mangoes", "oranges", "kiwi", "apple" "bananas""pawpaw"]
-                       fruits= fruits_in_string + fruits_in_lists
-                       print fruits =  ["pears", "oranges", "kiwi", "apple", "mangoes", "bananas""pawpaw"]
+          
+          ```python
+           fruits_in_string = ["pears"," oranges","kiwi","apple"]
+               fruits_in_lists =  ["mangoes", "oranges", "kiwi", "apple" "bananas""pawpaw"]
+                 fruits= fruits_in_string + fruits_in_lists
+                  print fruits =  ["pears", "oranges", "kiwi", "apple", "mangoes",        "bananas""pawpaw"]
+          ```
                  
                
         
@@ -177,13 +187,15 @@ If there is a repitition in a variable the loop will only call the character onc
 >>>>>>> 627620f5c6b5db7e4e604e366672369f0c6e171a
          
  Loops in dictionaries.
-    
+ 
+```python
                  num_dict = {1: "Nairobi", 2: "kisumu", 3: "Eldoret"}
                    for k, v in num_dict.items():
                      print(f'{k}={v}')
                        1=one
                        2=two
                        3=three
+```
 
 Theres a for or while loop where conditions given gets to be excecuted just like in If and Else statements.
  
@@ -205,6 +217,7 @@ Theres a for or while loop where conditions given gets to be excecuted just like
                
 Compilations of For & Else break loops.
  
+ ```python
            for n in range (2, 10):
                 # print (n)
            for x in range (2, n):
@@ -214,6 +227,7 @@ Compilations of For & Else break loops.
              break
           else:
             print (n," is a prime number")
+```
             
             
             
