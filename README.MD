@@ -239,6 +239,7 @@ Compilations of For & Else break loops.
 4.6Match Statements.
  Its takes an expression and compares its value to successive patterns given as one or more case blocks.
  
+ ```python
        number =int(input("code"))
         def country_name(code):
          match code:
@@ -251,6 +252,7 @@ Compilations of For & Else break loops.
           case _:
             return ("Notfound")
         print (country_name(number) )
+```
                   
 You can combine several literals in a single pattern using | (“or”)
 
