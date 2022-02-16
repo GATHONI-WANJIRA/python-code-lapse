@@ -104,8 +104,9 @@
            fruits_in_string = ["pears"," oranges","kiwi","apple"]
                fruits_in_lists =  ["mangoes", "oranges", "kiwi", "apple" "bananas""pawpaw"]
                  fruits= fruits_in_string + fruits_in_lists
-                  print fruits =  ["pears", "oranges", "kiwi", "apple", "mangoes",        "bananas""pawpaw"]
+                  print fruits =  ["pears", "oranges", "kiwi", "apple ,"bananas","pawpaw"]
 ```
+
                  
                
         
@@ -185,18 +186,17 @@ If there is a repitition in a variable the loop will only call the character onc
 =======
 ```
   
->>>>>>> 627620f5c6b5db7e4e604e366672369f0c6e171a
+>>>>>>> 
          
  Loops in dictionaries.
  
 ```python
-                 num_dict = {1: "Nairobi", 2: "kisumu", 3: "Eldoret"}
-                   for k, v in num_dict.items():
-                     print(f'{k}={v}')
-                       1=one
-                       2=two
-                       3=three
-```
+         num_dict = {1: "Nairobi", 2: "kisumu", 3: "Eldoret"}
+             for k, v in num_dict.items():
+                print(f'{k}={v}')
+                   1=one
+                     2=two
+```                       3=three
 
 Theres a for or while loop where conditions given gets to be excecuted just like in If and Else statements.
  
