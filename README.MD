@@ -84,10 +84,10 @@
         Unlike strings they are mutable.
         You can also add new items to the list using ; append () method.
         
-         `python fruits = ["mangoes", "oranges", "kiwi", "apple"]
-            fruits.append.("bananas", "pawpaw)
-            print fruits
-            ["mangoes", "oranges", "kiwi", "apple" "bananas" "pawpaw"] `
+         `python fruits = ["mangoes", "oranges", "kiwi", "apple"]`
+         `fruits.append.("bananas", "pawpaw)`
+         `print fruits`
+         `["mangoes", "oranges", "kiwi", "apple" "bananas" "pawpaw"]`
                  
         They can also be nested. thus creating lists that contain other lists.
                  fruits_in_string = ["pears"," oranges","kiwi","apple"]
