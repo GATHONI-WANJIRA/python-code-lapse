@@ -144,7 +144,7 @@
  A loop interates over an object until it is complete.
  It can either be a For loop or a While loop as shown below .
 
-    ```
+    ```python
      str = "Python"
       for c in str:
        print(c)
