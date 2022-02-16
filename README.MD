@@ -143,7 +143,8 @@
 
  A loop interates over an object until it is complete.
  It can either be a For loop or a While loop as shown below .
- 
+
+    ```
      str = "Python"
       for c in str:
        print(c)
@@ -153,6 +154,8 @@
          h
          o
          n
+
+    ```
          
 If there is a repitition in a variable the loop will only call the character once. Loops dont arrange the output in the order og the occurrence but rather randomly.
 
