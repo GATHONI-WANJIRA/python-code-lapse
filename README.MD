@@ -178,6 +178,7 @@ If there is a repitition in a variable the loop will only call the character onc
   C
   B
   A
+```
 <<<<<<< HEAD
   ```
 
