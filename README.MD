@@ -172,13 +172,15 @@ If there is a repitition in a variable the loop will only call the character onc
   
          
  Loops in dictionaries.
-    
+
+```python
                  num_dict = {1: "Nairobi", 2: "kisumu", 3: "Eldoret"}
                    for k, v in num_dict.items():
                      print(f'{k}={v}')
                        1=one
                        2=two
                        3=three
+```
 
 Theres a for or while loop where conditions given gets to be excecuted just like in If and Else statements.
  
