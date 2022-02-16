@@ -122,7 +122,7 @@
          They are used to write conditional flow code.
          They evaluate if a condition is true or false.
                  
-                
+```python     
            def get_capital(country):
 
              if country == "kenya":
@@ -136,6 +136,7 @@
     
              else: 
                return none
+```
      
 
 -The Range () function. 
