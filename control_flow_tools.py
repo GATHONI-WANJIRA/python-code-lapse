@@ -1,13 +1,15 @@
-#match statements
-number =int(input("code"))
-def country_name(code):
-    match code:
-      case 254:
-        return ("Kenya")                                                                   
-      case 256:
-          return ("Uganda")
-      case 247:
-          return ("tanzania")
-      case _:
-          return ("Notfound")
-print (country_name(number) )
+#match statements.
+
+# point is an (x, y) tuple
+match point:
+    case (0, 0):
+        print("Origin")
+    case (0, y):
+        print(f"Y={y}")
+    case (x, 0):
+        print(f"X={x}")
+    case (x, y):
+        print(f"X={x}, Y={y}")
+    case _:
+        raise ValueError("Not a point")
+        print (point)

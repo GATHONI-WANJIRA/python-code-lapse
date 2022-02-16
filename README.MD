@@ -205,12 +205,14 @@ Compilations of For & Else break loops.
             
  Continue statements in loops.
 
+ ```python
+
      for num in range (2,10):
         if num % 2 == 0:
           print("this is an even number", num)
           continue
             print("this is an odd number" , num)     
-            
+  ```         
             
             
  4.5 Pass Statements.
