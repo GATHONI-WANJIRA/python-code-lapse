@@ -95,12 +95,12 @@
          fruits.append.("bananas", "pawpaw)
          print fruits
          ["mangoes", "oranges", "kiwi", "apple" "bananas" "pawpaw"]           
- ```
+```
 
                  
         They can also be nested. thus creating lists that contain other lists.
           
- ```python
+```python
            fruits_in_string = ["pears"," oranges","kiwi","apple"]
                fruits_in_lists =  ["mangoes", "oranges", "kiwi", "apple" "bananas""pawpaw"]
                  fruits= fruits_in_string + fruits_in_lists
