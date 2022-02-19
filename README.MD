@@ -300,4 +300,5 @@ match var:
   on x axis
 ```
 
+#### 4.7 Defining Functions.
 
