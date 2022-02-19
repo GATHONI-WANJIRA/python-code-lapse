@@ -130,12 +130,6 @@ else:
                  fruits= fruits_in_string + fruits_in_lists
                   print fruits =  ["pears", "oranges", "kiwi", "apple ,"bananas","pawpaw"]
 ```
-
-                 
-               
-        
-        
-        
         
         
  #### 4. Control Flow Tools. 
