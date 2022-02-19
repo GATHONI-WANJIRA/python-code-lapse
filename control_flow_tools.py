@@ -1,20 +1,13 @@
-#fibonacci series.
+# match statements with variables.
 
-nterms = int(input("How many terms ?"))
-#first two terms.
-a,b= 0,1
-count = 0
-if nterms <= 0:
-    print("Please enter a positive integer.")
-elif nterms == 1:
-    print ("fibonacci sequence upto" , nterms, ":")
-    print (a)
-else:
-    print ("fibonacci sequence:")
-    while count < nterms:
-        print (a)
-        nth = a + b
-        a = b
-        b = nth
-        count += 1
-
+var = (8,0)
+match var:
+    case (0,y):
+      print ("on the y axis")
+    case (x,0):
+        print ("on the x axis")
+    case (0,0):
+        print ("the point of origin")
+    case (x,y):
+        print ("not on the axis")    
+        
