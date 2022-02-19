@@ -47,17 +47,16 @@
 
     >>> Fibonaci series.
         It is used to add two precede numbers to come up with the  next number in line. (nth number.)
-
-```python
-nterms = int(input("How many terms ?"))
+```python 
+("Please enter a positive integer.")
+elif nterms == 1:
+    print ("fibonacci sequence upto" , nterms, ":")
+    print (a)nterms = int(input("How many terms ?"))
 #first two terms.
 a,b= 0,1
 count = 0
 if nterms <= 0:
-    print("Please enter a positive integer.")
-elif nterms == 1:
-    print ("fibonacci sequence upto" , nterms, ":")
-    print (a)
+    print
 else:
     print ("fibonacci sequence:")
     while count < nterms:
@@ -69,6 +68,7 @@ else:
 ```
   
        
+
     >>> Strings.
         They are usually enclosed in single or double quotes. (" ") , (' ') .
                     print("you are late to work"
@@ -77,9 +77,10 @@ else:
 ```python
                    Name = jude
                    action = died.
-                   print name + action
+                   print name  
                    jude died.
-```
+``` 
+
         
         Strings can be indexed by having the first character identified as  index (0) .
        
@@ -288,5 +289,21 @@ Compilations of For & Else break loops.
         print (country_name(number) )
 ```
                   
-You can combine several literals in a single pattern using | (“or”)
+Patterns can look like unpacking assignments, and can be used to bind variables:
+
+```python
+var = (8,0)
+match var:
+  case (0,x)
+   print ("on y-axis")
+  case (x,0)
+   print ("on x-axis")
+  case (0,0)
+   print ("point of origin")
+  
+
+  output
+  on x axis
+```
+
 
