@@ -302,3 +302,4 @@ match var:
 
 #### 4.7 Defining Functions.
 
+Basic defining functions to be elaborated in the next part.
