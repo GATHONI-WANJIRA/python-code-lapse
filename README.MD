@@ -20,7 +20,7 @@
    
    
 
- 3. #### Informal introduction to python.   
+3. #### Informal introduction to python.   
      comments in python are written by use of '#' before a line of code, in a white space, but never in a string literal.
      
     >>> Using python as a calculator.
@@ -264,6 +264,8 @@ Compilations of For & Else break loops.
    
            while True:
               pass  
+
+
    
 ##### 4.6 Match Statements.
  Its takes an expression and compares its value to successive patterns given as one or more case blocks.
@@ -280,7 +282,7 @@ Compilations of For & Else break loops.
             return ("tanzania")
           case _:
             return ("Notfound")
-        print (country_name(number) )
+        print (country_name(number))
 ```
                   
 Patterns can look like unpacking assignments, and can be used to bind variables:
