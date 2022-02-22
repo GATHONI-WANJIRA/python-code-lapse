@@ -68,10 +68,9 @@ else:
 ```
   
        
-
     >>> Strings.
         They are usually enclosed in single or double quotes. (" ") , (' ') .
-                    print("you are late to work"
+                    print("you are late to work")
         They can be joined together by use of '+' and repeated by use of '*' .
 
 ```python
