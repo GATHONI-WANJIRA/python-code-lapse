@@ -351,7 +351,7 @@ Basic defining functions to be elaborated in the next part.
 
 - To return a shallow copy of the return list.
  
-
+##### 5.1.1. Using Lists as Stacks
 
 
 
