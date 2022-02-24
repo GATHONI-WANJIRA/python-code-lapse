@@ -362,7 +362,9 @@ Basic defining functions to be elaborated in the next part.
 To implement a queue, use collections.deque which was designed to have fast appends and pops from both ends.
 
 
+##### 5.1.3. List Comprehensions.
 
+-List comprehensions provide a concise way to create lists. Common applications are to make new lists where each element is the result of some operations applied to each member create a subsequence of those elements that satisfy a certain condition.
 
 
 
