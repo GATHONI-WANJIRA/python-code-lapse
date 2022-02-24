@@ -400,7 +400,7 @@ It is best to think of a dictionary as a set of key: value pairs, with the requi
 The main operations on a dictionary are storing a value with some key and extracting the value given the key. It is also possible to delete a key:value pair with del. If you store using a key that is already in use, the old value associated with that key is forgotten. It is an error to extract a value using a non-existent key.
 
 
-
+#### 5.6. Looping Techniques.
 
 
 
