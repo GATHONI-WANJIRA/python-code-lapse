@@ -316,6 +316,8 @@ Basic defining functions to be elaborated in the next part.
 ##### 5.1 More on lists.
  - list.append(x) - To add an item to a certain set.
  - list.insert(i, x) - To insert an item .... i= index.. x = item to be added.
+ - list.remove(x) - To remove an item from a certain entry.
+ - 
 
 
 
