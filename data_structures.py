@@ -1,2 +1,4 @@
-phones = {'nokia', 'techno', 'techno', 'realme', 'iphone', 'samsung', 'iphone' }
-print (phones)
+
+tel = {'Lynne': 4098, 'Mark': 4139}
+tel ['wahu'] = 4127
+print (tel)
