@@ -375,7 +375,7 @@ To implement a queue, use collections.deque which was designed to have fast appe
 
 #### 5.2. The del statement.
 
-
+-  The del statement can also be used to remove slices from a list or clear the entire list.There is a way to remove an item from a list given its index instead of its value: the del statement. This differs from the pop() method which returns a value. 
 
 
 
