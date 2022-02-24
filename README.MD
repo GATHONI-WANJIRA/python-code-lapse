@@ -385,6 +385,11 @@ To implement a queue, use collections.deque which was designed to have fast appe
 A tuple consists of a number of values separated by commas. Tuples are also immutable.
 
 
+#### 5.4. Sets.
+
+-
+
+
 
 
 
