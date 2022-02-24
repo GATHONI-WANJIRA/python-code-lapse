@@ -314,6 +314,8 @@ Basic defining functions to be elaborated in the next part.
  A specialized means of organizing and storing data.
  
 ##### 5.1 More on lists.
+ - list.append(x) - To add an item to a certain set.
+ - 
 
 
 
