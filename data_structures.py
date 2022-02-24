@@ -1,10 +1,9 @@
-stack = [3, 4, 5]
-stack.append(6)
-print (stack)
+from collections import deque
+Queue = deque (["debtors", "creditors", "investors"])
+Queue.popleft()
+print (Queue)
 
 
-stack.pop()
-print (stack)
 
 
 
