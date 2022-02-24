@@ -314,16 +314,17 @@ Basic defining functions to be elaborated in the next part.
  A specialized means of organizing and storing data.
  
 ##### 5.1 More on lists.
- ####### list.append(x)
+ >>> list.append(x)
   - To add an item to a certain set.
   
- ####### list.insert(i, x)
+ >>> list.insert(i, x)
   - To insert an item .... i= index.. x = item to be added.
   
- ####### list.remove(x) 
+ >>> list.remove(x) 
  - To remove an item from a certain entry.
  
- ####### list.pop([i]) 
+ >>> list.pop([i]) 
+ 
  -To remove a certain indexed item and return it later. if not specified it removes the item in the last index.
 
 
