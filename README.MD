@@ -326,6 +326,21 @@ Basic defining functions to be elaborated in the next part.
  >>> list.pop([i]) 
  
  -To remove a certain indexed item and return it later. if not specified it removes the item in the last index.
+ 
+ >>> list.clear()
+ 
+ -To remove all the items in an entry.
+ 
+ >>> list.index(x[, start[, end]])
+ 
+ - To identify items in reference to their identified position. The first x, has zero indexing.
+ 
+ >>> list.count(x)
+ 
+ - Used to return the number of times x appears in an entry.
+
+
+ 
 
 
 
