@@ -373,6 +373,10 @@ To implement a queue, use collections.deque which was designed to have fast appe
 
 
 
+#### 5.2. The del statement.
+
+
+
 
 
 
