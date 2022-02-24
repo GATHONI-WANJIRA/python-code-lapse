@@ -367,6 +367,11 @@ To implement a queue, use collections.deque which was designed to have fast appe
 -List comprehensions provide a concise way to create lists. Common applications are to make new lists where each element is the result of some operations applied to each member create a subsequence of those elements that satisfy a certain condition.
 
 
+##### 5.1.4. Nested List Comprehensions.
+
+-The initial expression in a list comprehension can be any arbitrary expression, including another list comprehension.
+
+
 
 
 
