@@ -3,7 +3,7 @@
 
 #### 1.Using the python interpreter.
 > The docs get to outline various ways of starting the python interpreter. 
-     (i honestly didn't dwell on this and the commands as well since in the past i've not used them in any way)
+     (i honestly didn't dwell on this and the commands as well
      The commands included
                         : python-c command [arg]
                         
@@ -20,7 +20,7 @@
    
    
 
- 3. #### Informal introduction to python.   
+3. #### Informal introduction to python.   
      comments in python are written by use of '#' before a line of code, in a white space, but never in a string literal.
      
     >>> Using python as a calculator.
@@ -68,10 +68,9 @@ else:
 ```
   
        
-
     >>> Strings.
         They are usually enclosed in single or double quotes. (" ") , (' ') .
-                    print("you are late to work"
+                    print("you are late to work")
         They can be joined together by use of '+' and repeated by use of '*' .
 
 ```python
@@ -264,6 +263,8 @@ Compilations of For & Else break loops.
    
            while True:
               pass  
+
+
    
 ##### 4.6 Match Statements.
  Its takes an expression and compares its value to successive patterns given as one or more case blocks.
@@ -280,7 +281,7 @@ Compilations of For & Else break loops.
             return ("tanzania")
           case _:
             return ("Notfound")
-        print (country_name(number) )
+        print (country_name(number))
 ```
                   
 Patterns can look like unpacking assignments, and can be used to bind variables:
@@ -301,4 +302,82 @@ match var:
 ```
 
 #### 4.7 Defining Functions.
+
+Basic defining functions to be elaborated in the next part.
+
+#### 4.8 More on defining functions.
+
+##### 4.8.1 Default Argument Values.
+
+#### 5. DATA STRUCTURES.
+
+ A specialized means of organizing and storing data.
+ 
+##### 5.1 More on lists.
+ >>> list.append(x)
+  - To add an item to a certain set.
+  
+ >>> list.insert(i, x)
+  - To insert an item .... i= index.. x = item to be added.
+  
+ >>> list.remove(x) 
+ - To remove an item from a certain entry.
+ 
+ >>> list.pop([i]) 
+ 
+ -To remove a certain indexed item and return it later. if not specified it removes the item in the last index.
+ 
+ >>> list.clear()
+ 
+ -To remove all the items in an entry.
+ 
+ >>> list.index(x[, start[, end]])
+ 
+ - To identify items in reference to their identified position. The first x, has zero indexing.
+ 
+ >>> list.count(x)
+ 
+ - Used to return the number of times x appears in an entry.
+
+>>> list.sort 
+
+- Sort the items of the list in place.
+
+>>> list.reverse()
+
+- To reverse the number of elements in place.
+
+>>> list.copy()
+
+- To return a shallow copy of the return list.
+ 
+##### 5.1.1. Using Lists as Stacks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
