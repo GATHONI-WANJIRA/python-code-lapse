@@ -380,7 +380,9 @@ To implement a queue, use collections.deque which was designed to have fast appe
 
 #### 5.3. Tuples and Sequences.
 
+-  They are two examples of sequence data types (see Sequence Types — list, tuple, range). Since Python is an evolving language, other sequence data types may be added. There is also another standard sequence data type: the tuple.
 
+A tuple consists of a number of values separated by commas. Tuples are also immutable.
 
 
 
