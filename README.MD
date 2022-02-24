@@ -339,6 +339,10 @@ Basic defining functions to be elaborated in the next part.
  
  - Used to return the number of times x appears in an entry.
 
+>>> list.sort 
+
+- Sort the items of the list in place.
+
 
  
 
