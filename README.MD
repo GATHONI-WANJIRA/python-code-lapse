@@ -343,7 +343,13 @@ Basic defining functions to be elaborated in the next part.
 
 - Sort the items of the list in place.
 
+>>> list.reverse()
 
+- To reverse the number of elements in place.
+
+>>> list.copy()
+
+- To return a shallow copy of the return list.
  
 
 
