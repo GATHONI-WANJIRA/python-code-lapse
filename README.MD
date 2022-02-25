@@ -428,7 +428,7 @@ An optional format specifier can follow the expression. This allows greater cont
 
 ###### 6.1.2 The String format() Method.
 
-
+-The brackets and characters within them (called format fields) are replaced with the objects passed into the str.format() method. A number in the brackets can be used to refer to the position of the object passed into the str.format() method.
 
 
 
