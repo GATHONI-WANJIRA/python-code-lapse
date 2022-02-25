@@ -439,7 +439,9 @@ An optional format specifier can follow the expression. This allows greater cont
 There is another method, str.zfill(), which pads a numeric string on the left with zeros. It understands about plus and minus signs.
 
 
+###### 6.1.4 . Old string formatting.
 
+-The % operator (modulo) can also be used for string formatting. Given 'string' % values, instances of % in string are replaced with zero or more elements of values. This operation is commonly known as string interpolation. 
 
 
 
