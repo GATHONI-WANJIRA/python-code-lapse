@@ -1,3 +1,5 @@
-info = {'Noni': 'the kenyan', 'Mark': 'the cuban'}
-for N,M in info.items():
-    print (N,M)
+Year = 2023
+event = 'graduation'
+print (f'Results of the {Year} {event}')
+
+
