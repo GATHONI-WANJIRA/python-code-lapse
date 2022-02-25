@@ -434,6 +434,10 @@ An optional format specifier can follow the expression. This allows greater cont
 
 ###### 6.1.3 Manual String Formatting.
 
+- The str.rjust() method of string objects right-justifies a string in a field of a given width by padding it with spaces on the left. There are similar methods str.ljust() and str.center(). These methods do not write anything, they just return a new string. If the input string is too long, they don’t truncate it, but return it unchanged; this will mess up your column lay-out but that’s usually better than the alternative, which would be lying about a value. (If you really want truncation you can always add a slice operation, as in x.ljust(n)[:n].)
+
+There is another method, str.zfill(), which pads a numeric string on the left with zeros. It understands about plus and minus signs.
+
 
 
 
