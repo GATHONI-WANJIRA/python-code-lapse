@@ -444,6 +444,7 @@ There is another method, str.zfill(), which pads a numeric string on the left wi
 -The % operator (modulo) can also be used for string formatting. Given 'string' % values, instances of % in string are replaced with zero or more elements of values. This operation is commonly known as string interpolation. 
 
 
+#### 6.2 Reading and Writing Files.
 
 
 
