@@ -373,26 +373,26 @@ To implement a queue, use collections.deque which was designed to have fast appe
 
 
 
-#### 5.2. The del statement.
+##### 5.2. The del statement.
 
 -  The del statement can also be used to remove slices from a list or clear the entire list.There is a way to remove an item from a list given its index instead of its value: the del statement. This differs from the pop() method which returns a value. 
 
 
-#### 5.3. Tuples and Sequences.
+##### 5.3. Tuples and Sequences.
 
 -  They are two examples of sequence data types (see Sequence Types — list, tuple, range). Since Python is an evolving language, other sequence data types may be added. There is also another standard sequence data type: the tuple.
 
 A tuple consists of a number of values separated by commas. Tuples are also immutable.
 
 
-#### 5.4. Sets.
+##### 5.4. Sets.
 
 -Python also includes a data type for sets. A set is an unordered collection with no duplicate elements. Basic uses include membership testing and eliminating duplicate entries. Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
 
 Curly braces or the set() function can be used to create sets. Note: to create an empty set you have to use set(), not {}; the latter creates an empty dictionary, a data structure.
 
 
-#### 5.5. Dictionaries.
+##### 5.5. Dictionaries.
 
 -Dictionaries are indexed by keys, which can be any immutable type; strings and numbers can always be keys.
 It is best to think of a dictionary as a set of key: value pairs, with the requirement that the keys are unique (within one dictionary). A pair of braces creates an empty dictionary: {}. Placing a comma-separated list of key:value pairs within the braces adds initial key:value pairs to the dictionary; this is also the way dictionaries are written on output.
@@ -400,7 +400,7 @@ It is best to think of a dictionary as a set of key: value pairs, with the requi
 The main operations on a dictionary are storing a value with some key and extracting the value given the key. It is also possible to delete a key:value pair with del. If you store using a key that is already in use, the old value associated with that key is forgotten. It is an error to extract a value using a non-existent key.
 
 
-#### 5.6. Looping Techniques.
+##### 5.6. Looping Techniques.
 
 - When looping through dictionaries, the key and corresponding value can be retrieved at the same time using the items() method.
 - When looping through a sequence, the position index and corresponding value can be retrieved at the same time using the enumerate() function
@@ -408,15 +408,7 @@ The main operations on a dictionary are storing a value with some key and extrac
 
 
 
-
-
-###6. Modules.
-
-
-
-
-
-
+#### 6. Modules.
 
 
 
