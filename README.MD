@@ -432,7 +432,7 @@ An optional format specifier can follow the expression. This allows greater cont
 -If keyword arguments are used in the str.format() method, their values are referred to by using the name of the argument.
 
 
-
+###### 6.1.3 Manual String Formatting.
 
 
 
