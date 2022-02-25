@@ -410,6 +410,8 @@ The main operations on a dictionary are storing a value with some key and extrac
 
 #### 6. Input and Output.
 
+- There are several ways to present the output of a program; data can be printed in a human-readable form, or written to a file for future use.
+
 
 
 
