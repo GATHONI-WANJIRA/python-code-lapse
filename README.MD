@@ -421,7 +421,9 @@ To use formatted string literals, begin a string with f or F before the opening 
 
 ###### 6.1.1 Formatted String Literals.
 
+- They are also called f-strings for short) let you include the value of Python expressions inside a string by prefixing the string with f or F and writing expressions as {expression}.
 
+An optional format specifier can follow the expression. This allows greater control over how the value is formatted.
 
 
 
