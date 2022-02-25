@@ -1,3 +1,3 @@
-table = {'Nairobi': +254, 'Tanzania': +256, 'Lebanon': +976}
-print('Nairobi: {0[Nairobi]:d}; Tanzania: {0[Tanzania]:d}; '
-      'Lebanon: {0[Lebanon]:d}'.format(table))
+for x in range(1, 11):
+     print(repr(x).rjust(2), repr(x*x).rjust(3), end=' ')
+     print(repr(x*x*x).rjust(4))
