@@ -404,7 +404,7 @@ The main operations on a dictionary are storing a value with some key and extrac
 
 - When looping through dictionaries, the key and corresponding value can be retrieved at the same time using the items() method.
 - When looping through a sequence, the position index and corresponding value can be retrieved at the same time using the enumerate() function
-
+-Using set() on a sequence eliminates duplicate elements. The use of sorted() in combination with set() over a sequence is an idiomatic way to loop over unique elements of the sequence in sorted order.
 
 
 
