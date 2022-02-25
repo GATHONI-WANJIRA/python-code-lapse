@@ -1,5 +1,2 @@
-Year = 2023
-event = 'graduation'
-print (f'Results of the {Year} {event}')
-
-
+import math
+print (f'The value of pi is approximately {math.pi: 3f}.')
