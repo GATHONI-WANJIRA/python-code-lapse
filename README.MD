@@ -402,7 +402,8 @@ The main operations on a dictionary are storing a value with some key and extrac
 
 #### 5.6. Looping Techniques.
 
-
+- When looping through dictionaries, the key and corresponding value can be retrieved at the same time using the items() method.
+- When looping through a sequence, the position index and corresponding value can be retrieved at the same time using the enumerate() function
 
 
 
