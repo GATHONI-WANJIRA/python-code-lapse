@@ -452,6 +452,7 @@ Normally, files are opened in text mode, that means, you read and write strings 
 
 
 
+##### 6.2.1 Methods of File Objects.
 
 
 
