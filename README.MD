@@ -481,9 +481,43 @@ f.write(string) writes the contents of string to the file, returning the number 
 
 - It is possible to write programs that handle selected exceptions.
 
+#### 7.4 Raising Exceptions.
+
+- The raise statement allows the programmer to force a specified exception to occur.
+The sole argument to raise indicates the exception to be raised. This must be either an exception instance or an exception class (a class that derives from Exception). If an exception class is passed, it will be implicitly instantiated by calling its constructor with no arguments.
+If you need to determine whether an exception was raised but don’t intend to handle it, a simpler form of the raise statement allows you to re-raise the exception.
 
 
+#### 7.5 Exception Chaining.
 
+-The raise statement allows an optional from which enables chaining exceptions.
+This can be useful when you are transforming exceptions. Exception chaining happens automatically when an exception is raised inside an except or finally section. This can be disabled by using from None idiom:
+
+
+#### 7.6 User-defined Exception.
+
+- Programs may name their own exceptions by creating a new exception class (see Classes for more about Python classes). Exceptions should typically be derived from the Exception class, either directly or indirectly.
+
+Exception classes can be defined which do anything any other class can do, but are usually kept simple, often only offering a number of attributes that allow information about the error to be extracted by handlers for the exception.
+
+Most exceptions are defined with names that end in “Error”, similar to the naming of the standard exceptions.
+
+Many standard modules define their own exceptions to report errors that may occur in functions they define.
+
+
+#### 7.7 Defining Clean-up Actions.
+
+- If a finally clause is present, the finally clause will execute as the last task before the try statement completes. The finally clause runs whether or not the try statement produces an exception. The following points discuss more complex cases when an exception occurs:
+
+If an exception occurs during execution of the try clause, the exception may be handled by an except clause. If the exception is not handled by an except clause, the exception is re-raised after the finally clause has been executed.
+
+An exception could occur during execution of an except or else clause. Again, the exception is re-raised after the finally clause has been executed.
+
+If the finally clause executes a break, continue or return statement, exceptions are not re-raised.
+
+If the try statement reaches a break, continue or return statement, the finally clause will execute just prior to the break, continue or return statement’s execution.
+
+If a finally clause includes a return statement, the returned value will be the one from the finally clause’s return statement, not the value from the try clause’s return statement.
 
 
 
