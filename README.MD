@@ -477,6 +477,25 @@ f.write(string) writes the contents of string to the file, returning the number 
 - Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are called exceptions and are not unconditionally fatal.
 
 
+#### 7.3 Handling Exceptions.
+
+- It is possible to write programs that handle selected exceptions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
