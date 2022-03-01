@@ -491,7 +491,7 @@ If you need to determine whether an exception was raised but don’t intend to h
 #### 7.5 Exception Chaining.
 
 -The raise statement allows an optional from which enables chaining exceptions.
-This can be useful when you are transforming exceptions. 
+This can be useful when you are transforming exceptions. Exception chaining happens automatically when an exception is raised inside an except or finally section. This can be disabled by using from None idiom:
 
 
 
