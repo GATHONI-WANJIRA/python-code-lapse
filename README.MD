@@ -466,3 +466,4 @@ f.write(string) writes the contents of string to the file, returning the number 
 
 ### 7. Errors and Exceptions.
 
+- There are (at least) two distinguishable kinds of errors: syntax errors and exceptions.
