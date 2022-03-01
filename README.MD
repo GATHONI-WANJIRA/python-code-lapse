@@ -3,7 +3,7 @@
 
 #### 1.Using the python interpreter.
 > The docs get to outline various ways of starting the python interpreter. 
-     (i honestly didn't dwell on this and the commands as well
+     (i honestly didn't dwell on thi
      The commands included
                         : python-c command [arg]
                         
@@ -442,6 +442,64 @@ There is another method, str.zfill(), which pads a numeric string on the left wi
 ###### 6.1.4 . Old string formatting.
 
 -The % operator (modulo) can also be used for string formatting. Given 'string' % values, instances of % in string are replaced with zero or more elements of values. This operation is commonly known as string interpolation. 
+
+
+#### 6.2 Reading and Writing Files.
+
+-The first argument is a string containing the filename. The second argument is another string containing a few characters describing the way in which the file will be used. mode can be 'r' when the file will only be read, 'w' for only writing (an existing file with the same name will be erased), and 'a' opens the file for appending; any data written to the file is automatically added to the end. 'r+' opens the file for both reading and writing. The mode argument is optional; 'r' will be assumed if it’s omitted.
+
+Normally, files are opened in text mode, that means, you read and write strings from and to the file, which are encoded in a specific encoding. If encoding is not specified, the default is platform dependent (see open()). 'b' appended to the mode opens the file in binary mode: now the data is read and written in the form of bytes objects. This mode should be used for all files that don’t contain text.
+
+
+
+##### 6.2.1 Methods of File Objects.
+
+- f.readline() reads a single line from the file; a newline character (\n) is left at the end of the string, and is only omitted on the last line of the file if the file doesn’t end in a newline. This makes the return value unambiguous; if f.readline() returns an empty string, the end of the file has been reached, while a blank line is represented by '\n', a string containing only a single newline.
+
+- If you want to read all the lines of a file in a list you can also use list(f) or f.readlines().
+
+f.write(string) writes the contents of string to the file, returning the number of characters written.
+
+
+##### 6.2.2 Saving structured data with json.
+
+
+### 7. Errors and Exceptions.
+
+- There are (at least) two distinguishable kinds of errors: syntax errors and exceptions.
+
+#### 7.1 Syntax Errors.
+
+- Syntax errors, also known as parsing errors, are perhaps the most common kind of complaint you get while you are still learning Python.
+
+#### 7.2 Exceptions.
+
+- Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are called exceptions and are not unconditionally fatal.
+
+
+#### 7.3 Handling Exceptions.
+
+- It is possible to write programs that handle selected exceptions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
