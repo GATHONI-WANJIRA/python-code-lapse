@@ -485,7 +485,13 @@ f.write(string) writes the contents of string to the file, returning the number 
 
 - The raise statement allows the programmer to force a specified exception to occur.
 The sole argument to raise indicates the exception to be raised. This must be either an exception instance or an exception class (a class that derives from Exception). If an exception class is passed, it will be implicitly instantiated by calling its constructor with no arguments.
+If you need to determine whether an exception was raised but don’t intend to handle it, a simpler form of the raise statement allows you to re-raise the exception.
 
+
+#### 7.5 Exception Chaining.
+
+-The raise statement allows an optional from which enables chaining exceptions.
+This can be useful when you are transforming exceptions. 
 
 
 
