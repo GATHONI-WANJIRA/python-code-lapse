@@ -467,3 +467,31 @@ f.write(string) writes the contents of string to the file, returning the number 
 ### 7. Errors and Exceptions.
 
 - There are (at least) two distinguishable kinds of errors: syntax errors and exceptions.
+
+#### 7.1 Syntax Errors.
+
+- Syntax errors, also known as parsing errors, are perhaps the most common kind of complaint you get while you are still learning Python.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
