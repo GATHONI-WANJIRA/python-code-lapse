@@ -481,7 +481,9 @@ f.write(string) writes the contents of string to the file, returning the number 
 
 - It is possible to write programs that handle selected exceptions.
 
+#### 7.4 Raising Exceptions.
 
+- The raise statement allows the programmer to force a specified exception to occur.
 
 
 
