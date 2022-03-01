@@ -472,7 +472,9 @@ f.write(string) writes the contents of string to the file, returning the number 
 
 - Syntax errors, also known as parsing errors, are perhaps the most common kind of complaint you get while you are still learning Python.
 
+#### 7.2 Exceptions.
 
+- Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are called exceptions and are not unconditionally fatal.
 
 
 
