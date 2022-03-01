@@ -494,6 +494,11 @@ If you need to determine whether an exception was raised but don’t intend to h
 This can be useful when you are transforming exceptions. Exception chaining happens automatically when an exception is raised inside an except or finally section. This can be disabled by using from None idiom:
 
 
+#### 7.6 User-defined Exception.
+
+- 
+
+
 
 
 
