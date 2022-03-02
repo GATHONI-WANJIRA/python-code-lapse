@@ -538,6 +538,8 @@ the outermost scope (searched last) is the namespace containing built-in names
 
 #### 8.3 A First Look at Classes.
 
+- Classes introduce a little bit of new syntax, three new object types, and some new semantics.
+
 
 
 
