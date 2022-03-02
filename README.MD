@@ -522,6 +522,8 @@ If a finally clause includes a return statement, the returned value will be the 
 
 ### 8.0 Classes.
 
+#### 8.1 A Word About Names and Objects.
+
 
 
 
