@@ -536,7 +536,7 @@ the next-to-last scope contains the current module’s global names
 the outermost scope (searched last) is the namespace containing built-in names
 
 
-
+#### 8.3 A First Look at Classes.
 
 
 
