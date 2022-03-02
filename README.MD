@@ -526,9 +526,14 @@ If a finally clause includes a return statement, the returned value will be the 
 
 #### 8.2 Python Scopes and Namespaces.
 
+- A namespace is a mapping from names to objects. Most namespaces are currently implemented as Python dictionaries, but that’s normally not noticeable in any way (except for performance), and it may change in the future. Examples of namespaces are: the set of built-in names (containing functions such as abs(), and built-in exception names); the global names in a module; and the local names in a function invocation. In a sense the set of attributes of an object also form a namespace. The important thing to know about namespaces is that there is absolutely no relation between names in different namespaces; for instance, two different modules may both define a function maximize without confusion — users of the modules must prefix it with the module name.
 
+-Although scopes are determined statically, they are used dynamically. At any time during execution, there are 3 or 4 nested scopes whose namespaces are directly accessible:
 
-
+the innermost scope, which is searched first, contains the local names
+the scopes of any enclosing functions, which are searched starting with the nearest enclosing scope, contains non-local, but also non-global names
+the next-to-last scope contains the current module’s global names
+the outermost scope (searched last) is the namespace containing built-in names
 
 
 
