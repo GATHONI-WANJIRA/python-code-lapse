@@ -524,7 +524,7 @@ If a finally clause includes a return statement, the returned value will be the 
 
 #### 8.1 A Word About Names and Objects.
 
-
+#### 8.2 Python Scopes and Namespaces.
 
 
 
