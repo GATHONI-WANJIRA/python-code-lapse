@@ -3,7 +3,7 @@
 
 #### 1.Using the python interpreter.
 > The docs get to outline various ways of starting the python interpreter. 
-     (i honestly didn't dw
+     (i honestly didn't d
      The commands included
                         : python-c command [arg]
                         
